@@ -26,7 +26,7 @@ rm ~/.config/notify/provider-config.yaml
 touch ~/.config/notify/provider-config.yaml
 
 # Build Slack notifications
-# Ref: https://github.com/projectdiscovery/notify
+# Ref: https://github.com/projectdiscovery/notify to add/remove different notification services
 echo "slack:" >> ~/.config/notify/provider-config.yaml
 echo "  - id: \"slack\"" >> ~/.config/notify/provider-config.yaml
 echo "    slack_channel: \"recon\"" >> ~/.config/notify/provider-config.yaml
