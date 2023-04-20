@@ -17,7 +17,7 @@ Ref: notify https://github.com/projectdiscovery/notify
 - Create subdomain list: subfinder -d {domain} -all > {domain_subdomains.txt}
 - Alphabetically sort subdomain list: sort dsg.txt -d -o {domain_subdomains.txt}
 - Change directory to reconFTW: cd ~/reconftw/
-- Update reconFTW.cfg and change Axiom fleet name
+- Update reconFTW.cfg and change AXIOM_FLEET_NAME="{domainFTW}"
 - Start tmux session: tmux
 - Start recon: ./reconftw.sh -m {CompanyName} -l {domain_subdomains.txt} -r -v
 
