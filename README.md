@@ -25,6 +25,6 @@ Ref: notify https://github.com/projectdiscovery/notify
 
 tmux will keep the SSH session alive when logged out and can be reattached when logged in. 
 
-To detach the tmux session: Ctrl-B,D
+Detach the tmux session: Ctrl-B,D
 <br/>
-To attach the tmux session: tmux attach
+Attach the tmux session: tmux attach
