@@ -21,7 +21,7 @@ Ref: notify https://github.com/projectdiscovery/notify
 - Start tmux session: tmux
 - Start recon: ./reconftw.sh -m {CompanyName} -l {domain_subdomains.txt} -r -v
 
-#tmux
+# tmux
 
 tmux will keep the SSH session alive when logged out and can be reattached when logged in. 
 
