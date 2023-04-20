@@ -1,6 +1,6 @@
 # reconFTW Install Script
 
-This is a BASH script to help streamline VPS installation and initial configuration of reconFTW. The script also installs Axiom and initiates its configuration.
+A BASH script to help streamline VPS installation and initial configuration of reconFTW. The script also installs and initiates Axiom.
 
 This script is for Debian based Linux systems and will need modification for other Linux distributions.
 
